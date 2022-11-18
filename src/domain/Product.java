@@ -2,11 +2,13 @@ package domain;
 
 public class Product{
 
-    public Product(String name) {
+    public Product(String name, Price price) {
         this.name = name;
+        this.price = price;
     }
 
     String name;
+    Price price;
 
    /* @Override
     public boolean equals(Object o) {
