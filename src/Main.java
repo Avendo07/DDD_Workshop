@@ -13,7 +13,7 @@ public class Main {
         Product sonyHeadphones = new Product("Sony headphones");
         cart.addLineItem(new LineItem(sonyHeadphones, 1));
 
-        cart.listCartItems();
+        System.out.println(cart.listCartItems());
     }
 }
 

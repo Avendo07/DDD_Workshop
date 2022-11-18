@@ -14,6 +14,6 @@ public class LineItem {
         return "LineItem{" +
                 "product=" + product +
                 ", quantity=" + quantity +
-                '}';
+                '}'+'\n';
     }
 }
