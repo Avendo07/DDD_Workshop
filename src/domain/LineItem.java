@@ -9,6 +9,11 @@ public class LineItem {
         this.quantity = quantity;
     }
 
+    public LineItem(Product product) {
+        this.product = product;
+        this.quantity = 1;
+    }
+
     @Override
     public String toString() {
         return "LineItem{" +
